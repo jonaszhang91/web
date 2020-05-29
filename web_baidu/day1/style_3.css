@@ -1,12 +1,38 @@
-/* h2{
-    width: 100px;
-    height: 100px;
-    background-color:grey;
+body{
+    margin: 0   auto;
+   
+    width: 1200px;
+}
+h1{
+    margin: 0 0 0 0;
+    background-color: gray;
+    height: 60px;
+    color:  white;
+    line-height: 60px;
+    padding-left: 30px;
+}
+.box{
+    padding: 0 0 0 0 ;
+    widows: 1200px;
+    height: 122px;
+    border: 1px solid lightgray;
+}
+h2{
+    margin: 0 0 0 0 ;
+    padding: 0 0 0 0;
+    width: 120px;
+    height: 120px;
+    float: left;
     font-size: 1em;
-    line-height: 100px;
-    
-    
-} */
-div{
-    height: 200px;
+    background-color: lightgray;
+    line-height: 120px;
+    text-align: center;
+}
+span{
+    font-weight: bold;
+    white-space: nowrap;
+}
+br  {
+    display: none;
+    /* 让br标签不起作用 */
 }
