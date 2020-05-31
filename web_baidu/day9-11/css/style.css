@@ -1,0 +1,475 @@
+
+.header{
+    margin: 0 auto;
+    padding-top: 0;
+    padding-left: 0;
+    width: 1600px;
+    height: 1000px;
+    background-image: url(/day9-11/img/Background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+.header-h1{
+    width: 810px;
+    position: absolute;
+    left: 0;
+    top: 110px;
+    right: 0;
+    margin: auto;
+ }   
+    
+.header h1{
+    line-height: 220%;
+    font-size: 3.7em;
+    font-weight: lighter;
+}
+.header p{
+    line-height: 200%;
+    font-size: 1.2em;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.4);
+    word-break: break-all;
+}
+.text {
+    
+    height: 240px;
+    width: 1000px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 540px;
+
+}
+.text h4{
+    margin-top: 50px;
+    margin-bottom: 8px;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    
+}
+.text p{
+    margin-top: 0;
+    padding-top: 0;
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+.text input{
+    height: 45px;
+    width: 250px;
+    margin-right: 10px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #726f67;
+    padding-left: 15px;
+   
+}
+#sicnup{
+    font-size: 0.5em;
+    height: 45px;
+    width: 120px;
+    background-color: #fff;
+    border: none;
+}
+.box1{
+    margin: 0 auto;
+    padding-top: 0;
+    padding-left: 0;
+    width: 1600px;
+    height: 800px; 
+    text-align: center;
+    position: relative;
+}   
+
+    
+.box1 h2{
+    margin-top: 80px;
+    font-weight:normal;
+    letter-spacing: 3px;
+    font-size: small;
+}  
+.box1 p{
+    font-size: 3.5em;
+    font-weight: lighter;
+    width: 840px;
+    margin: 20px auto;
+    word-break: break-all;
+}   
+.box1_2{
+    position: absolute;
+    bottom: 280px;
+    width: 1200px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+}
+.box1_2_1{
+    width: 80px;
+    height: 200px;
+    
+}   
+.box1_2_2{
+    width: 520px;
+    height: 200px;
+    
+}
+.box1_3{
+    position: absolute;
+    bottom: 80px;
+    width: 1200px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+}
+
+.box1_2_2 p {
+    font-size: 0.9em;
+    width: 350px;
+    text-align: left;
+    margin-left: 30px;
+    color: black;
+    line-height: 180%;
+}
+.box1_2_2 h2    {
+    margin-top: 0;
+    margin-left: 30px;
+    text-align: left;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.box2{
+    margin: 0 auto;
+    padding-top: 0;
+    padding-left: 0;
+    width: 1600px;
+    height: 800px;
+    background-image: url(/day9-11/img/Background-1.png);
+    background-repeat: no-repeat;
+    background-position: center;    
+
+    position: relative;
+}
+.box2_1{
+    width: 350px;
+    height: 370px;
+    position: absolute;
+    top: 220px;
+    left: 300px;
+}
+.box2_1 h2{
+    color: white;
+    margin-bottom: 70px;
+    font-size: 2em;
+}
+.box2_1 p{
+    color: #c4c2bf;
+    line-height: 180%;
+}
+.box2 ul{
+    margin-top: 0;
+    margin-left: 0;
+    padding: 0;
+    position: absolute;
+    top: 590px;
+    left: 300px;
+}
+.box2 li{
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 30px;
+    list-style-type: none;
+    float: left;
+    height: 50px;
+    width: 220px;
+    text-align: center;
+    
+}
+.a1 {
+    text-decoration: none;
+    color: white;
+    font-size: 0.1em;
+    width: 100%;
+    line-height: 3;
+    display: inline-block;
+    border-radius: 2px;
+    
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.box2 a:hover{
+    background-color: #fff;
+    color: black;
+    border:none;
+}
+.box3{
+    margin: 0 auto;
+    padding-top: 0;
+    padding-left: 0;
+    width: 1600px;
+    height: 500px; 
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.4);
+}
+.box3_1 {
+    width: 1100px ;
+    margin: 0 auto;
+}
+.box3_1 h2{
+    font-size: 2.5em;
+    font-weight: normal;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.box3_1_2 p{
+    float: left;
+    width: 270px;
+    padding-right: 45px;
+    padding-left: 45px ;
+
+}
+.box4{
+    margin: 0 auto;
+    padding-top: 0;
+    padding-left: 0;
+    width: 1600px;
+    height: 900px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.4);  
+}
+.box4_1{
+    margin: 0 auto;
+    margin-top: 100px ;
+    width: 1000px;
+    height: 360px;
+    display: flex;
+}
+.box4_1_1{
+    width: 350px;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+.box4_1_1 h3{
+    width: 280px;
+    font-weight: 600;
+
+}
+.box4_2 {
+    margin: 0 auto;
+    margin-top: 100px ;
+    margin-bottom: 100px ;
+    width: 1000px;
+    height: 360px;
+    display: flex;
+}
+.box4_2_1{
+    width: 410px;
+    
+    margin-top: 40px;
+    margin-right: 30px;
+}
+.box4_2_1 h3{
+    font-weight: 600;
+}
+.box4_2_1 p {
+    width: 330px;
+}
+.box5{
+    margin: 0 auto;
+    padding-top: 0;
+    padding-left: 0;
+    width: 1600px;
+    height: 1200px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.4);  
+}
+.box5_1 {
+    margin-top: 80px;
+    height: 200px ;
+    text-align: center;
+}
+.box5_1 h2{
+    font-size: 2.3em;
+    font-weight: normal;
+}
+.box5_1 p{
+    margin: 0 auto;
+    width: 700px;
+    line-height: 180%;
+    color: rgba(0, 0, 0, 0.4);
+}
+.box5_2{
+    width: 1300px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+}
+.box5 ul{
+    margin-top: 0;
+    margin-left: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+.box5_2 li{
+    margin-left: 20px;
+    z-index: 2;
+    width: 510px;
+    height: 440px;
+    list-style-type: none;
+    display:inline-block;
+}
+.box5_3{
+    width: 1300px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+}
+.box5_3 li{
+    margin-left: 20px;
+    z-index: 2;
+    width: 510px;
+    height: 440px;
+    list-style-type: none;
+    display:inline-block;
+}
+.box5 a{
+    width: 100%;
+    line-height:5.5;
+    background-color: rgba(128, 128, 128, 0.4);
+    opacity: 0;
+}
+.box5 a:hover{
+    opacity: 1;
+}
+#li1{
+    margin-left: 120px;
+    background-image: url(/day9-11/img/touxiang4.png);
+}
+#li2{
+    background-image: url(/day9-11/img/touxiang3.png);
+}
+#li3{
+    margin-left: 120px;
+    background-image: url(/day9-11/img/touxiang2.png);
+}
+#li4{
+    background-image: url(/day9-11/img/touxiang1.png);
+}
+.box6{
+    margin: 0 auto;
+    padding-top: 0;
+    padding-left: 0;
+    width: 1600px;
+    height: 730px;  
+}
+.box6_1{
+   width: 1100px;
+   margin: 80px auto;
+   display: flex;
+    
+}
+.box6_1_1{
+    height: 600px;
+    width: 500px;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    border-radius: 12px;
+    text-align: center;
+}
+.box6_1_1 input{
+    margin-top: 30px ;
+    height: 50px;
+    width: 430px;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+#message{
+    margin-top: 30px ;
+    padding-top: 0;
+    height: 200px;
+    width: 430px;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    
+}
+#submit_1{
+    background-color: black;
+    color: white;
+}
+.box6_1_2{
+    height: 600px;
+    width: 400px;
+    padding-top: 80px;
+    margin-left: 170px;
+    
+}
+.box6_1_2 h2{
+    font-size: 2em;
+} 
+.box6_1_2 p {
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.box6_1_2_1{
+    width: 380px;
+    height: 55px;
+    display: flex;
+    margin-top: 20px ;
+}
+.box6_1_2_1 img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    
+    
+}
+.box6_1_2_2{
+    margin-left: 10px;
+    font-size: 0.6em;
+    width: 280px;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    height: 50px;
+    line-height: 25px;
+    
+}
+.box7 {
+    margin: 0 auto;
+    padding-top: 0;
+    padding-left: 0;
+    width: 1600px;
+    height: 500px; 
+    background-color: #141414;
+}
+.box7_1 {
+    width: 1300px;
+    margin: 0 auto;
+    color: white;
+    padding: 100px;
+    display: flex;
+}
+.box7_1 table{
+    
+    width: 900px;
+    height: 300px;
+    text-align: left;
+}
+.box7_1 th{
+    font-weight: normal;
+}
+.box7_1 td {
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: lighter;
+    
+}
+.box7_1_1 {
+    width: 310px;
+    margin-left: 150px;
+}
+.box7_1_1 p{
+    color: rgba(255, 255, 255, 0.4);
+}
