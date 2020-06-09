@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="hello"></h1>
+    <script>
+        var myDate = new Date();
+        var time = myDate.getHours();
+
+            var myDate = new Date();
+            var time = myDate.getHours();
+         
+            time = Number(time);
+            console.log(time);
+            if(time < 6){
+                document.getElementById("hello").innerHTML="凌晨了注意休息.";
+            }else if(time < 10){
+                document.getElementById("hello").innerHTML="早呀,一定要吃早饭哦.";
+            }else if(time < 10){
+                document.getElementById("hello").innerHTML="上午好.";
+            }else if(time < 13){
+                document.getElementById("hello").innerHTML="记得吃午饭.";
+            }else if(time < 18){
+                document.getElementById("hello").innerHTML="下午好.";
+            }else if(time < 22){
+                document.getElementById("hello").innerHTML="晚上好.";
+            }else if(time < 24){
+                document.getElementById("hello").innerHTML="夜深了早点睡.";
+            }
+
+    </script>
+</body>
+</html>
