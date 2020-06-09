@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">    
+    <title>IFE ECMAScript</title>
+</head>
+<body>        
+    <input id="first-number" type="number" value="0" placeholder="第一个数字">
+    <input id="second-number" type="number" value="0" placeholder="第二个数字">
+    <button id="add-btn">加</button>
+    <button id="minus-btn">减</button>
+    <button id="times-btn">乘</button>
+    <button id="divide-btn">除</button>
+    <p id="result">运算结果</p>
+    
+    <script>
+        var add = document.getElementById("add-btn");
+        var minus = document.getElementById("minus-btn");
+        var times = document.getElementById("times-btn");
+        var divide = document.getElementById("divide-btn");
+        var firstNum = document.getElementById('first-number');
+        var secondNum = document.getElementById("second-number");
+        
+        add.onclick = function (){
+            isNumber();
+           var result = Number(firstNum.value)  + Number(secondNum.value)  ;
+           document.getElementById("result").innerHTML= result;
+        }
+        minus.onclick = function (){
+            isNumber();
+           var result = Number(firstNum.value)  - Number(secondNum.value) ;
+           document.getElementById("result").innerHTML= result;
+        }
+        times.onclick = function (){
+            isNumber();
+           var result = Number(firstNum.value)  * Number(secondNum.value);
+           document.getElementById("result").innerHTML= result;
+        }
+        divide.onclick = function (){
+            isNumber();
+            isZore();
+           var result = Number(firstNum.value)  / Number(secondNum.value) ;
+           document.getElementById("result").innerHTML= result;
+        }
+        function isNumber(){
+            if( isNaN(Number(firstNum.value)) && isNaN(Number(secondNum.value))){
+                 
+            }else {
+                console.log("输入值非数字!");
+                
+                
+            }
+
+        }
+        function isZore(){
+            if(Number(secondNum.value) === 0){
+                console.log("分子不能为0");
+            }
+        }
+    </script>
+</body>
+</html>
