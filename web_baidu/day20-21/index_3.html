@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            height: 480px;
+            width: 480px;
+            overflow: hidden;
+            padding: 0;
+            margin: auto;
+            position: relative;
+        }
+        #img1{
+            position: absolute;
+            top: -7680px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="erik_ce204002.jpg" alt="" id="img1">
+    </div>
+    <script>
+        var bg = document.querySelector("div");
+        var imgs = document.querySelector("#img1");
+        bg.style.position = "relative";
+        imgs.style.position = "absolute";
+        var value =0 ;
+        function toSmile(){
+            
+            
+            let id = setInterval(() => {
+                if (value !== -7680){                    
+                    value -= 480 ;
+                    imgs.style.top = value + "px";      
+                }else{
+                    clearInterval(id);
+                    noSmile();
+                }
+            }, 65);
+
+        }
+        function noSmile(){
+            
+            
+            let id = setInterval(() => {
+                if (value !== 0){                    
+                    value += 480 ;
+                    imgs.style.top = value + "px";      
+                }else{
+                    clearInterval(id);
+                    toSmile();
+                }
+            }, 65);
+
+        }
+        toSmile();
+    </script>
+</body>
+</html>
